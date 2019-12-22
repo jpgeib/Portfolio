@@ -49,13 +49,19 @@ body {
     /* padding: 20px; */
     margin: 10px;
     position: relative;
-    background-color: steelblue;
-    color: white;
-    border: 1px solid black;
+    background-color: lightgray;
+    color: black;
+    border: 1px solid white;
     font-family: 'Dancing Script', cursive;
     font-size: 24px;
     height: 50px;
     width: 100px;
+    background-image: url(file:///Users/jamesgeib%201/Documents/classwork/HW%2001-Portfolio/Assets/Images/metallic-silver.jpg);
+}
+
+.button:hover {
+    background-image: url(file:///Users/jamesgeib%201/Documents/classwork/HW%2001-Portfolio/Assets/Images/metallic-silver-dark.jpg);
+    color: white;
 }
 
 footer {
@@ -63,6 +69,16 @@ footer {
     height: 200px;
     background-color: gray;
     margin: 100px 0px 0px 0px;
+    position: relative;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    top: 150px;
+    left: 10px;
 }
 
 /* About Me */
@@ -88,6 +104,7 @@ footer {
     font-size: 24px;
     color: white;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
     
 }
 
@@ -104,6 +121,7 @@ footer {
     font-size: 24px;
     color: white;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
 }
 
 .content3 {
@@ -119,6 +137,7 @@ footer {
     font-size: 24px;
     color: white;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
 }
 
 #main {
@@ -145,40 +164,266 @@ footer {
     left: 90px;
 }
 
+#contact-main-header {
+    color: white;
+    font-size: 32px;
+    padding: 20px 20px;
+    margin: 10px 150px;
+    position: relative;
+    text-align: center;
+    border: 2px solid white;
+    
+}
+
 form {
     text-align: center;
     position: relative;
-    top: 50px;
+    top: 25px;
+    right: 15px;
 }
 
 #name-bar {
     width: 500px;
+    margin: 10px 0;
+    
 }
 
 #email-bar {
     width: 500px;
+    margin: 10px 0;
+    position: relative;
+    left: 1px;
+    
 }
 
 #descrip-bar {
     width: 500px;
+    margin: 10px 0;
+    height: 200px;
     position: relative;
-    right: 18px;
+    right: 22px;
 }
 
 .name-label {
+    color: white;
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.email-label {
+    color: white;
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.descrip-label {
+    color: white;
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    right: 22px;
+    bottom: 95px;
+}
+
+#submit {
+    background-image: url(file:///Users/jamesgeib%201/Documents/classwork/HW%2001-Portfolio/Assets/Images/metallic-silver.jpg);
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    position: relative;
+    left: 22px;
+    margin: 10px 0;
+    border: 1px solid white;
+}
+
+#submit:hover {
+    background-image: url(file:///Users/jamesgeib%201/Documents/classwork/HW%2001-Portfolio/Assets/Images/metallic-silver-dark.jpg);
+    color: white;
+
+}
+/* Portfolio */
+
+.portfolio-main {
+    background-color: rgb(180, 74, 70);
+    width: 80%;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid black;
+    position: relative;
+    left: 90px;
+}
+
+#photoshop {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 20px 10px 10px 10px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+#indesign {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 20px 10px 10px 10px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+#premiere {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 20px 10px 10px 10px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+#word {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 20px 10px 10px 10px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+#powerpoint {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 20px 10px 10px 10px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+#excel {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 20px 10px 10px 10px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+#html5 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 20px 10px 10px 10px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+#css3 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 20px 10px 10px 10px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+#javascript {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 20px 10px 10px 10px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.portfolio-label {
+    float: left;
+    font-family: 'Dancing Script', cursive;
+    color: white;
 
 }
 
+.line1 {
+    float: left;
+    position: relative;
+    bottom: 18px;
+}
 
-/* Portfolio */
+.line2 {
+    float: left;
+    position: relative;
+    bottom: 18px;
+}
 
+.line3 {
+    float: left;
+    position: relative;
+    bottom: 18px;
+}
 
+.portfolio-descrip {
+    float: right;
+    border: 2px solid white;
+    margin: 10px;
+    padding: 10px;
+    width: 600px;
+    position: relative;
+    bottom: 8px;
+    height: 446px;
+}
 
+#portfolio-text {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 54px;
+    text-align: center;
+}
 
+#label-div1 {
+    position: relative;
+    left: 22px;    
+}
 
+#label-div2 {
+    position: relative;
+    left: 24px; 
+}
 
+#label-div3 {
+    position: relative;
+    left: 17px; 
+}
 
+#label-div4 {
+    position: relative;
+    left: 24px; 
+}
 
+#label-div5 {
+    position: relative;
+    left: 12px;
+}
+
+#label-div6 {
+    position: relative;
+    left: 29px; 
+}
+
+#label-div7 {
+    position: relative;
+    left: 48px; 
+}
+
+#label-div8 {
+    position: relative;
+    left: 55px;
+}
+
+#label-div9 {
+    position: relative;
+    left: 43px;
+}
 
 
 
