@@ -39,7 +39,7 @@ li {
 }
 
 body {
-    background-image: url(file:///Users/jamesgeib%201/Documents/classwork/HW%2001-Portfolio/Assets/Images/city-backdrop.JPG);
+    background-image: url(Assets/Images/city-backdrop.JPG);
     background-color: rgb(185, 193, 196);
     
 }
@@ -56,11 +56,11 @@ body {
     font-size: 24px;
     height: 50px;
     width: 100px;
-    background-image: url(file:///Users/jamesgeib%201/Documents/classwork/HW%2001-Portfolio/Assets/Images/metallic-silver.jpg);
+    background-image: url(Assets/Images/metallic-silver.jpg);
 }
 
 .button:hover {
-    background-image: url(file:///Users/jamesgeib%201/Documents/classwork/HW%2001-Portfolio/Assets/Images/metallic-silver-dark.jpg);
+    background-image: url(Assets/Images/metallic-silver-dark.jpg);
     color: white;
 }
 
@@ -226,7 +226,7 @@ form {
 }
 
 #submit {
-    background-image: url(file:///Users/jamesgeib%201/Documents/classwork/HW%2001-Portfolio/Assets/Images/metallic-silver.jpg);
+    background-image: url(Assets/Images/metallic-silver.jpg);
     color: black;
     font-family: 'Dancing Script', cursive;
     width: 100px;
@@ -239,7 +239,7 @@ form {
 }
 
 #submit:hover {
-    background-image: url(file:///Users/jamesgeib%201/Documents/classwork/HW%2001-Portfolio/Assets/Images/metallic-silver-dark.jpg);
+    background-image: url(Assets/Images/metallic-silver-dark.jpg);
     color: white;
 
 }
